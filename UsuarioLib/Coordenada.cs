@@ -2,7 +2,7 @@
 
 namespace UsuarioLib;
 
-public class Coordenada
+public struct Coordenada : ICoordenada
 {
 
     public Coordenada(double latitude, double longitude)
